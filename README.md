@@ -1,4 +1,4 @@
-# YololTool
+# YololCopyPasteV2
 UPDATED TO V2
 Added:
 -Multi Copy/Paste
@@ -15,9 +15,9 @@ it helps slow the script down so it can be ran efficiently on some systems.
 
 
 
-This is the script in the file:
+<b>THERE IS CHANGES YOU MAY WANT TO MAKE IN THE SCRIPT IF 1. you dont have a numpad, and 2, if you want to add more keybinds, customise and even have more limits of copy. Currently you can copy up to 3 things at a time, you can expand this easily. there more info in the script and down below</b>
 
-
+```
 ;Current Ver 2.0
 ;AutoHotkey Yolol easy Copy/Paste by Faolon, DragonWolfStudios
 ;For Cookie.Co and the Community of Starbase 2021.
@@ -26,7 +26,7 @@ This is the script in the file:
 ;Keybinds 
 
 ;TO CHANGE KEYBINDS  ^ is the ctrl key, # is the windows key ! is the alt key, if you use these
-;you can do any combo of CTRL+alt, or whatevr you want, Below its currently ctrl+Numpad.
+;you can do any combo of CTRL+alt, or whatever you want, Below its currently ctrl+Numpad.
 ; Here are some examples of other binds.  ^A this will be Ctrl+A. #^1 this will be Win+CTRL+1.
 ;!^F1 this will be ALT+CTRL+F1 function key. 
 ;go here for the names of other binds https://www.autohotkey.com/docs/KeyList.htm it will have 
@@ -39,7 +39,7 @@ This is the script in the file:
 ;and it would be the 4th clipboard, just keep going up by one. You have a copy, paste, and cut. ive helped organise
 ;it a bit more by putting in some ";Set" tabs, you can add as many as you want.
 #Persistent
-```
+
 ;Set1
 ^Numpad1::Copy(1) ;Ctrl Numpad 1
 ^Numpad4::Paste(1) ;Ctrl Numpad 4
@@ -61,7 +61,7 @@ This is the script in the file:
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
 Plans:
-Multi Clipboard DONE
+Multi DONE
 
 Auto curser to top (Right now you have to make sure your text curser is in the number 1 box)
 
