@@ -39,7 +39,7 @@ This is the script in the file:
 ;and it would be the 4th clipboard, just keep going up by one. You have a copy, paste, and cut. ive helped organise
 ;it a bit more by putting in some ";Set" tabs, you can add as many as you want.
 #Persistent
-
+```
 ;Set1
 ^Numpad1::Copy(1) ;Ctrl Numpad 1
 ^Numpad4::Paste(1) ;Ctrl Numpad 4
@@ -57,7 +57,7 @@ This is the script in the file:
 ;Set 5
 
 ;Set 6
-
+```
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
 Plans:
