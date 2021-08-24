@@ -15,7 +15,7 @@ it helps slow the script down so it can be ran efficiently on some systems.
 
 
 
-<b>THERE IS CHANGES YOU MAY WANT TO MAKE IN THE SCRIPT IF 1. you dont have a numpad, and 2, if you want to add more keybinds, customise and even have more limits of copy. Currently you can copy up to 3 things, you can expand this easily.</b>
+<b>THERE IS CHANGES YOU MAY WANT TO MAKE IN THE SCRIPT IF 1. you dont have a numpad, and 2, if you want to add more keybinds, customise and even have more limits of copy. Currently you can copy up to 3 things at a time, you can expand this easily. there more info in the script and down below</b>
 
 
 ;Current Ver 2.0
