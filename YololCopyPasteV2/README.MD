@@ -26,7 +26,7 @@ it helps slow the script down so it can be ran efficiently on some systems.
 ;Keybinds 
 
 ;TO CHANGE KEYBINDS  ^ is the ctrl key, # is the windows key ! is the alt key, if you use these
-;you can do any combo of CTRL+alt, or whatevr you want, Below its currently ctrl+Numpad.
+;you can do any combo of CTRL+alt, or whatever you want, Below its currently ctrl+Numpad.
 ; Here are some examples of other binds.  ^A this will be Ctrl+A. #^1 this will be Win+CTRL+1.
 ;!^F1 this will be ALT+CTRL+F1 function key. 
 ;go here for the names of other binds https://www.autohotkey.com/docs/KeyList.htm it will have 
