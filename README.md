@@ -58,57 +58,6 @@ This is the script in the file:
 
 ;Set 6
 
-
-Copy(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll	
-	 Clipboard = 
-	Send ^c
-	 ClipWait, 2, 1 
-	if ErrorLevel 
-	{
-	Clipboard := oldClipboard 
-	 return
-	}	
-	ClipboardData%clipboardID% := ClipboardAll	
-	  Clipboard := oldClipboard 
-}
-Cut(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll 	
-	 Clipboard = 
-	Send ^x
-	 ClipWait, 2, 1 
-	if ErrorLevel 
-	{
-	Clipboard := oldClipboard 
-	 return
-	}
-	ClipboardData%clipboardID% := ClipboardAll	
-	  Clipboard := oldClipboard 
-}
-Paste(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll 
-	 Clipboard := ClipboardData%clipboardID%
-	loop parse, Clipboard, `n, `r
-    {
-        SendInput % "{text}" A_LoopField
-         Sleep 50   
-        Send {Down}
-         Sleep 50   
-        if A_Index = 20
-            break
-    }
-return
-	Clipboard := oldClipboard 
-	 oldClipboard = 
-}
-
-
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
 Plans:
