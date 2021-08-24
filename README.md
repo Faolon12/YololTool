@@ -111,16 +111,8 @@ return
 
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
-
-
-
-
-V1 INFO is below, and outdated, please look at v2
-you can use ctrl+win+v to paste the code, ctrl+c or right clip copy is fine to copy.
-
-V.1
-
-Plans:Multi Clipboard (because, why not, seems useful)
+Plans:
+Multi Clipboard DONE
 
 Auto curser to top (Right now you have to make sure your text curser is in the number 1 box)
 
