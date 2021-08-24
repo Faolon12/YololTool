@@ -8,23 +8,6 @@ all you need for this is Autohotkey and the scipt file.
 if your pc is a bit slower, and has issues, try editing the ahk file and change Sleep 50 to sleep 100 for both, 
 it helps slow the script down so it can be ran efficiently on some systems.
 
-
-
-This is the script in the file:
-
-#^v::
-loop parse, Clipboard, `n, `r
-{
-    SendInput % "{text}" A_LoopField
-     Sleep 50
-    Send {Down}
-     Sleep 50
-    if A_Index = 20
-     break
-return
-
-
-
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
 you can use ctrl+win+v to paste the code, ctrl+c or right clip copy is fine to copy.
