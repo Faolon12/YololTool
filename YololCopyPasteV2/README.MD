@@ -15,7 +15,8 @@ it helps slow the script down so it can be ran efficiently on some systems.
 
 
 
-This is the script in the file:
+#THERE IS CHANGES YOU MAY WANT TO MAKE IN THE SCRIPT IF 1. you dont have a numpad, and 2, if you want to add more keybinds, customise and even have more limits of copy.
+#Currently you can copy up to 3 things, you can expand this easily.
 
 
 ;Current Ver 2.0
@@ -57,58 +58,6 @@ This is the script in the file:
 ;Set 5
 
 ;Set 6
-
-
-Copy(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll	
-	 Clipboard = 
-	Send ^c
-	 ClipWait, 2, 1 
-	if ErrorLevel 
-	{
-	Clipboard := oldClipboard 
-	 return
-	}	
-	ClipboardData%clipboardID% := ClipboardAll	
-	  Clipboard := oldClipboard 
-}
-Cut(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll 	
-	 Clipboard = 
-	Send ^x
-	 ClipWait, 2, 1 
-	if ErrorLevel 
-	{
-	Clipboard := oldClipboard 
-	 return
-	}
-	ClipboardData%clipboardID% := ClipboardAll	
-	  Clipboard := oldClipboard 
-}
-Paste(clipboardID)
-{
-	global
-	local oldClipboard := ClipboardAll 
-	 Clipboard := ClipboardData%clipboardID%
-	loop parse, Clipboard, `n, `r
-    {
-        SendInput % "{text}" A_LoopField
-         Sleep 50   
-        Send {Down}
-         Sleep 50   
-        if A_Index = 20
-            break
-    }
-return
-	Clipboard := oldClipboard 
-	 oldClipboard = 
-}
-
-
 Autohotkey Download: https://www.autohotkey.com/download/ahk-install.exe
 
 Plans:
