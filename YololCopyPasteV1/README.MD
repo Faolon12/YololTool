@@ -1,4 +1,6 @@
 # Yolol Copy paste V1
+<b>DOES NOT WORK IN SHIP DESIGNER CHECK THE HOTFIX PATCH</b>
+
 This Script was made by Faolon, with the help of u/anonymous1184 on reddit.
 I wanted to make this to be as easy to use and funcional for the community of starbase, mostly because i found the
 available tool already is a pain to compile and setup for use in the game. 
