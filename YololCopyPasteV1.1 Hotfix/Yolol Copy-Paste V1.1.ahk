@@ -16,6 +16,7 @@
         if A_Index = 20
             break
     }
+return
 #^b::
     loop parse, Clipboard, `n, `r
     {
